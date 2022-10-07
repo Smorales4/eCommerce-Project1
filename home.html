@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <title>Home</title>
+    
+</head>
+<div>
+
+
+    <!-- Header -->
+    <section id="header">
+        <a href="#"><img src="images/images.png" class="logo" alt="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping cart"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Slider  -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/korean-woman.webp" style="width:100%">
+            <div class="text">
+                <!-- <Slider description> -->
+                <h4>This opportunity is yours</h4>
+                <h2>Beauty Products</h2>
+                <h1>15% OFF ENTIRE STORE</h1>
+                <p>Save more with coupons & clearance</p>
+                <button><a href="products.html"></a>Shop Now</button>
+            </div>
+        </div>
+        <div class="mySlides fade" style="display: none">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/happy-mom-cooking.webp" style="width:100%;">
+            <div class="text">     
+                <!-- <Slider description> -->
+                <h4>This opportunity is yours</h4>
+                <h2>Kitchen Products</h2>
+                <h1>15% OFF ENTIRE STORE</h1>
+                <p>Save more with coupons & clearance</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+        <div class="mySlides fade" style="display: none">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/korean-house.jpg" style="width:100%">
+            <div class="text">
+                <!-- <Slider description> -->
+                <h4>This opportunity is yours</h4>
+                <h2>Household Products</h2>
+                <h1>15% OFF ENTIRE STORE</h1>
+                <p>Save more with coupons & clearance</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+        <a class="next" onclick="plusSlides(1)"><i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    
+    <div class="featureText">
+        <br>
+        <h2>Why us?</h2>
+        <p>We offer to you...</p>
+    </div>
+</div>
+
+    <!-- <section id="feature"> -->
+    <section id="feature" class="section-p1">
+        <div class="feature-box">
+            <img src="images/online-store2.png" alt="">
+            <h6>Entire Online Store</h6>
+        </div>
+        <div class="feature-box">
+            <img src="images/discount.png" alt="">
+            <h6>Savings</h6>
+        </div>
+        <div class="feature-box">
+            <img src="images/great-service.png" alt="">
+            <h6>Great service</h6>
+        </div>
+        <div class="feature-box">
+            <img src="images/support.png" alt="">
+            <h6>24/7 Support</h6>
+        </div>
+        <div class="feature-box">
+            <img src="images/shipping.png" alt="">
+            <h6>Free shipping</h6>
+        </div>
+    </section>
+
+    
+        </div>
+    </section>
+    <script src="app.js"></script>
+    <script src="/data.json"></script>
+</body>
+</html> 
